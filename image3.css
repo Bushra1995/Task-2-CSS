@@ -1,0 +1,39 @@
+h2 {
+    text-decoration: underline;
+}
+
+.link {
+    color: rgb(248, 161, 62);
+  }
+
+  .link {
+    color: rgb(248, 161, 62);
+  }
+
+  .link2 {
+    background-color: yellow;
+  }
+
+  .link3 {
+    
+    color: rgb(252, 0, 0);
+  }
+
+  .bold1 {
+    font-weight: bold;
+    }
+  .allcolor {
+    color: rgb(34, 0, 252);
+    }
+
+    .colorbold {
+        font-weight: bold;
+    }
+    .li2 {
+    
+        color: rgb(252, 0, 0);
+      }
+      .empty{
+        list-style-type: none;
+      }
+      

@@ -1,0 +1,23 @@
+.bg {
+    background-color: #fcffed;
+    max-width: 700px;
+    height: 450px;
+    box-shadow: 3px 0px;
+}
+.greybox {
+    background-color: #d9d9d9;
+    max-width: 200px;
+    height: 100px;
+    overflow: hidden;
+    display:inline-block;
+    margin-left: 7px;
+}
+.middlebox {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    height: 50px;
+    overflow: auto;
+    max-width: 680px;
+    margin: 7px 7px;
+    font-weight: bold;
+}
