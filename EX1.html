@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task 3 css</title>
+    <style>
+        .Zig-zag1 {
+            width: 60px;
+            height: 60px;
+            border-style: solid;
+            border-width: 2px;
+            margin: 3px;
+            display: inline-block;
+        }
+
+        .Zig-zag2 {
+            position: relative;
+            top: 20px;
+            width: 60px;
+            height: 60px;
+            border-style: solid;
+            border-width: 2px;
+            margin: 3px;
+            display: inline-block;
+        }
+
+        .Zig-zag1:nth-child(odd) {
+            background-color: yellow;
+        }
+
+        .Zig-zag2:nth-child(even) {
+            background-color: green;
+        }
+
+            .box {
+                width: 85px;
+                height: 30px;
+                margin: 3px;
+                margin-bottom: 10px;
+                display: inline-block;
+                text-align: center;
+                font-size: 24px;
+                color: #fff;
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+                background-color: red;
+            }
+
+            .box:nth-child(even) {
+                display: none;
+            }
+    </style>
+</head>
+
+<body>
+    <h1>Zig-zag Boxs</h1>
+    <hr>
+    <main>
+        <div class="Zig-zag1"></div>
+        <div class="Zig-zag2"></div>
+        <div class="Zig-zag1"></div>
+        <div class="Zig-zag2"></div>
+        <div class="Zig-zag1"></div>
+        <div class="Zig-zag2"></div>
+        <div class="Zig-zag1"></div>
+        <div class="Zig-zag2"></div>
+        <div class="Zig-zag1"></div>
+        <div class="Zig-zag2"></div>
+    </main>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <h1>Hide even numbers from 1 to 10</h1>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+    <div class="box">9</div>
+    <div class="box">10</div>
+    <hr>
+</body>
+
+</html>
